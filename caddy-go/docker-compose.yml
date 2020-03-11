@@ -5,7 +5,8 @@ services:
     image: easonsummer/ssrpanel-v2ray-docker:go
     restart: always
     ports:
-      - "7781:7781" 
+      - "7781:7781"
+      - "990:990"
     dns:
       - 1.1.1.1
       - 8.8.8.8
